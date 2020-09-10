@@ -1,0 +1,105 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  background-color: #eee;
+}
+.register-container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin: 150px 50px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+}
+.register-container input[type="text"],
+.register-container input[type="password"] {
+  width: 100%;
+  padding: 16px 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.register-container .icon {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  border: 5px solid #eee;
+  border-radius: 100% !important;
+  overflow: hidden;
+}
+
+.register-container .icon svg {
+  fill: #4286f4;
+  width: 100%;
+  height: 100%;
+}
+.register-container button {
+  background-color: #4286f4;
+  color: white;
+  padding: 14px 0;
+  margin: 10px 0;
+  border: none;
+  cursor: grab;
+  width: 48%;
+}
+.register-container button:hover {
+  opacity: 0.8;
+}
+.formcontainer {
+  text-align: center;
+  margin: 0px 50px 12px;
+}
+.register-container .container {
+  margin: 10px 0 0 0;
+  padding: 5px 0;
+  text-align: left;
+  background-color: inherit;
+}
+.register-container span.psw {
+  float: right;
+  padding-top: 0;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 400px) {
+  .register-container form {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .register-container form {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .register-container form {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .register-container form {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
+
+@media screen and (min-width: 1120px) {
+  .register-container form {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}

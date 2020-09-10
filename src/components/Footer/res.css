@@ -1,0 +1,135 @@
+/* flexbox responsive */
+.sina.-res {
+  display: flex !important;
+  flex-direction: row;
+}
+.sina.-col {
+  flex-direction: column !important;
+}
+
+.sina.-xl,
+.sina.-lg,
+.sina.-md,
+.sina.-sm {
+  display: block;
+}
+
+.sina.-xl-hide,
+.sina.-lg-hide,
+.sina.-md-hide,
+.sina.-sm-hide {
+  display: none;
+}
+
+/* margin alignment */
+.sina.-a {
+  margin: auto;
+}
+.sina.-c {
+  margin: 15px auto;
+}
+.sina.-r {
+  margin: 15px 0 15px auto;
+}
+.sina.-l {
+  margin: 15px auto 15px 0;
+}
+
+/* vertical items alignment */
+.sina.-vc {
+  align-items: center;
+}
+.sina.-vt {
+  align-items: flex-start;
+}
+.sina.-vb {
+  align-items: flex-end;
+}
+
+/* one item vertical alignment */
+.sina.-ivc {
+  align-self: center;
+}
+.sina.sina.-ivt {
+  align-self: flex-start;
+}
+.sina.sina.-ivb {
+  align-self: flex-end;
+}
+
+/* horizontal items alignment */
+.sina.-hc {
+  justify-content: center;
+}
+.sina.-hr {
+  justify-content: flex-end;
+}
+.sina.-hl {
+  justify-content: flex-start;
+}
+.sina.-hsb {
+  justify-content: space-between;
+}
+.sina.-hsa {
+  justify-content: space-around;
+}
+
+/* one item horizontal alignment */
+.sina.-ihl {
+  margin: 0 auto 0 0;
+}
+.sina.-ihc {
+  margin: 0 auto;
+}
+.sina.-ihr {
+  margin: 0 0 0 auto;
+}
+
+/* containers */
+.sina.-lg-container {
+  overflow: auto;
+  width: auto;
+  height: auto;
+  padding: 0 20px;
+}
+.sina.-md-container {
+  overflow: auto;
+  width: auto;
+  height: auto;
+  padding: 0 100px;
+}
+.sina.-sm-container {
+  overflow: auto;
+  width: auto;
+  height: auto;
+  padding: 0 200px;
+}
+
+/* media queries */
+@media (max-width: 320px) {
+  .sina.-sm {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .sina.-md {
+    display: none !important;
+  }
+}
+@media (max-width: 900px) {
+  .sina.-res {
+    flex-direction: column;
+  }
+
+  .sina.-lg {
+    display: none !important;
+  }
+}
+@media (max-width: 1120px) {
+  .sina.-xl {
+    display: none !important;
+  }
+  .sina.-xl-hide {
+    display: block !important;
+  }
+}

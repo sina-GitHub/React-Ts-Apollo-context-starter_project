@@ -1,0 +1,13 @@
+div.btns {
+  margin-top: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.btns .buttons {
+  margin: auto;
+}
+
+div.btns h1 {
+  margin: auto;
+}

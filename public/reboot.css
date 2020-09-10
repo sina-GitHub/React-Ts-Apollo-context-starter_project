@@ -1,0 +1,104 @@
+/* reboot */
+
+/* @font-face {
+  font-family: Roboto-Regular;
+  src: url(RobotoCondensed-Regular.ttf);
+} */
+
+*,
+*:focus,
+*::before,
+*::after {
+  outline: none !important;
+  box-sizing: border-box;
+  /* The box-sizing CSS property sets how the total
+  width and height of an element is calculated. */
+}
+
+.web-app.ltr,
+.web-app.ltr * {
+  font-family: sans-serif !important;
+  direction: ltr !important;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: #fff;
+
+  /* scrollbar-width: none; */
+  /* Also needed to disable scrollbar Firefox */
+  /* for mozilla */
+  /* -ms-overflow-style: none; */
+  /* Disable scrollbar IE 10+ */
+
+  height: 100% !important;
+  overflow-x: hidden !important;
+}
+body {
+  min-height: -webkit-fill-available !important;
+  overflow-x: hidden !important;
+}
+/* @supports (-webkit-appearance: none) {
+  min-height: calc(100vh - 56px);
+} */
+html,
+body,
+header,
+#root {
+  padding: 0 !important;
+}
+
+html,
+body {
+  margin: 0 !important;
+  overflow-x: hidden !important;
+  background-color: #fff;
+}
+
+a,
+a:hover,
+a:focus,
+a:link,
+a:visited,
+a:active {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+li {
+  list-style: none !important;
+}
+
+/*::-webkit-scrollbar {
+  width: 0px; 
+  background: transparent;
+}*/
+
+/* Optional: show position indicator in red */
+/*::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+*/
+
+/* width of search input */
+.MuiFormControl-root.MuiTextField-root {
+  width: 400px !important;
+}
+
+/* input background-color */
+.MuiInputBase-input.MuiFilledInput-input.MuiInputBase-inputTypeSearch {
+  background-color: #fff !important;
+  width: 100% !important;
+}
+
+/* label font-size */
+label.MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-filled {
+  font-size: 18px !important;
+  color: #3f72b5 !important;
+}
+
+.MuiFilledInput-underline:before {
+  border-bottom: 2px solid #3f51b5 !important;
+}
